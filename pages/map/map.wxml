@@ -1,0 +1,17 @@
+   <view >
+   
+     
+  <map wx:if="{{exist!='none'}}" class="map" longitude="{{longitude}}" latitude="{{latitude}}"   markers="{{markers}}"
+  include-points="{{markers}}" polyline="{{polyline}}" bindmarkertap="click">
+  </map>
+
+
+
+</view>
+
+<view wx:if="{{exist!='none'}}">检验用二维码</view>
+<view wx:if="{{exist=='none'}}">当前无进程</view>
+<view wx:if="{{exist!='none'}}" style="display:flex;justify-content:center;margin-top:5vh">
+<canvas class='canvas' canvas-id='{{canvas}}' bindlongtap='save'></canvas>
+</view>
+

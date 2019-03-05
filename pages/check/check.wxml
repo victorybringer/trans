@@ -1,0 +1,110 @@
+ <view class="view1">
+    
+ 
+ 
+
+         <image  src="../icon/code.png" style="width:70rpx;height:5vh;" bindtap="search"></image>
+    <image src="../icon/his.png" style="width:70rpx;height:5vh;margin-left:100rpx" bindtap="history"></image>
+  </view>
+
+<view class="view2">
+    
+ 
+ 
+<text>路途检查</text>
+  
+  </view>
+<view class="line"></view>
+
+
+  
+<view wx:if="{{load=='true'&&exist=='0'}}">
+<view style="margin-top:5vh; font-size:5vw"
+>基本信息</view>
+<view class="baseinfo">
+<view class="item0">
+
+<view class="sub1">  姓名 </view>
+
+<view class="sub2">{{name}}</view>
+
+
+</view>
+
+
+<view class="item">
+<view class="sub1">身份证号 </view>
+
+<view class="sub2">{{id}}</view>
+</view>
+ 
+
+<view class="item3"> 
+ <view class="sub1">车牌号</view>
+
+<view class="sub2">{{carnumber}}</view>
+</view>
+</view>
+
+
+
+
+
+<view class="tx3">
+<text class="sub1">营业执照</text>
+
+<image src="{{image1}}"
+ class="img"></image>
+
+</view>
+<view class="tx3">
+<text class="sub1">汽车拍照</text>
+
+<image src="{{image2}}"
+ class="img"></image>
+
+</view>
+
+<view class="tx3">
+<text class="sub1">出发前消毒拍照</text>
+
+<image src="{{image3}}"
+ class="img"></image>
+
+</view>
+
+
+<view  style="margin-top:10vh">检查记录</view>
+<view style=" margin-top:2vh">
+<view style="justify-content:center;display:flex">
+<textarea style="border-style: solid;border-color: #878787;border-bottom-width:0.2rpx;border-top-width:0.2rpx; border-radius:20rpx;  border-left-width:0.2rpx;  border-right-width:0.2rpx; height:20vh;width:80%"
+bindinput="input"
+  
+
+  
+ 
+ 
+></textarea>
+
+</view>
+</view>
+
+<view style="display:flex;justify-content:center;margin-top:5vh">
+<button bindtap="confirm">确认</button>
+
+</view>
+
+</view>
+
+
+
+
+<view wx:if="{{exist=='1'}}" class="view3">已检查
+
+
+</view>
+
+<view wx:if="{{exist=='1'}}" class="view3">
+
+<image src="../icon/qualified.png" style="width:100rpx;height:7vh" bindtap="open"></image>
+</view>

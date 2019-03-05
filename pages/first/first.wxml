@@ -1,0 +1,62 @@
+
+<text>基本信息</text>
+<view style="margin-top: 5vh;border-style: solid;border-color: #878787;border-bottom-width:0.2rpx;border-top-width:0.2rpx; border-radius:20rpx;  border-left-width:0.2rpx;  border-right-width:0.2rpx;">
+<view class="tx0" >
+<text class="tx2">姓名</text>
+ <input class="user"  
+        
+        
+         placeholder	="请输入姓名" bindinput="name">
+         
+         </input> 
+</view>
+
+<view class="tx" >
+<text class="tx2">身份证号</text>
+ <input class="user"  
+        
+        
+         placeholder	="请输入身份证号" bindinput="id">
+         
+         </input> 
+</view>
+<view class="tx4" >
+<text class="tx2">车牌号</text>
+ <input class="user"  
+        
+        
+         placeholder	="请输入车牌号" bindinput="carnumber">
+         
+         </input> 
+</view>
+
+</view>
+
+
+
+<view class="tx" >
+<text class="tx2">营业执照</text>
+<button class="bt2" bindtap='choose1'>选择照片 </button>
+</view>
+
+
+<view class="tx3">
+<image src="{{image1}}" class="img"></image>
+
+</view>
+
+<view class="tx" >
+<text class="tx2">车辆图片</text>
+<button class="bt2" bindtap='choose2'>选择照片 </button>
+</view>
+
+
+<view class="tx3">
+<image src="{{image2}}" class="img"></image>
+
+</view>
+
+<button class="bt" bindtap='confirm'>确认 </button>
+
+
+

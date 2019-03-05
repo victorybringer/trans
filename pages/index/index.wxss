@@ -1,0 +1,22 @@
+
+
+
+.bt1{
+
+
+height: 6vh;
+position:fixed; 
+font-size: 2.5vh;
+bottom:0vh; 
+width: 375rpx
+
+}
+.bt2{
+width: 375rpx;
+font-size: 2.5vh;
+height: 6vh;
+margin-left:375rpx;
+position:fixed; 
+bottom:0vh; 
+}
+

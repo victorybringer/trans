@@ -1,0 +1,37 @@
+
+
+<view class="layer2">
+
+
+
+<button class="bt2"  bindtap="his">   
+
+
+<image class='btimg' src='../icon/his.png'></image>
+    <text class="btview">历史行程</text>
+    
+    
+    
+    </button>
+
+
+
+</view>
+
+<view class="layer2">
+
+
+
+<button class="bt2"  bindtap="exit">   
+
+
+<image class='btimg' src='../icon/exit.png'></image>
+    <text class="btview">退出登录</text>
+    
+    
+    
+    </button>
+
+
+
+</view>

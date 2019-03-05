@@ -1,0 +1,49 @@
+<view class="layer2" wx:for="{{check}}" wx:if="{{time[0]!=null}}">
+
+
+
+<button wx:if="{{check[index]=='1'}}" id="{{index}}" class="bt2"  bindtap="his">   
+
+
+
+<image  class='btimg' src='../icon/qualified.png'></image>
+
+
+
+
+
+  <text class="btview">{{time[index]}}</text>
+    
+    
+    
+    </button>
+
+
+
+
+<button  wx:if="{{check[index]=='2'}}" id="{{index}}" class="bt2"  bindtap="his">   
+
+
+
+
+
+
+
+<image  class='btimg' src='../icon/notpass.png'></image>
+
+  <text class="btview">{{openid[index]}}</text>
+    
+    
+    
+    </button>
+
+
+    
+    
+    
+    
+   
+
+
+
+</view>

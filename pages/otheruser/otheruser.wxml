@@ -1,0 +1,41 @@
+ <view class="text">
+    
+ 
+      
+       <input class="user"  id="input"
+        
+        
+         placeholder	="请输入用户名" bindinput="userNameInput">
+         
+         </input> 
+  
+  </view>
+
+
+
+ 
+ 
+     
+  
+    
+   
+  
+  
+ 
+ 
+
+
+   
+   <view class="text2">
+     
+    
+
+        
+   <input  class="pass"
+
+
+
+ placeholder	="请输入密码" password="true"  bindinput="passWdInput" ></input> 
+  </view>
+  
+ <button class="log" bindtap='click'>登录</button>

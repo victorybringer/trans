@@ -1,0 +1,60 @@
+
+
+<view  wx:if="{{state==0}}"style='margin-top:10vh'>
+
+<view style='display:flex;justify-content:center'>
+<image  src="../icon/waiting.png" style="width:100rpx;height:100rpx"></image>
+
+</view>
+
+<view style='display:flex;justify-content:center;margin-top:10vh'>
+<text>请等待审核</text>
+</view>
+
+
+
+
+<view style='display:flex;justify-content:center;margin-top:15vh'>
+<canvas class='canvas' canvas-id='canvas' bindlongtap='save'></canvas>
+</view>
+
+
+
+
+<view style='display:flex;justify-content:center;margin-top:10vh'>
+<button class="bt" bindtap="again">撤回审核</button>
+</view>
+</view>
+
+
+
+
+
+
+<view  wx:if="{{state==2}}"style='margin-top:10vh'>
+
+<view style='display:flex;justify-content:center'>
+<image  src="../icon/notpass.png" style="width:100rpx;height:100rpx"></image>
+
+</view>
+
+<view style='display:flex;justify-content:center;margin-top:10vh'>
+<text>审核不通过</text>
+</view>
+
+
+
+
+
+
+
+
+<view style='display:flex;justify-content:center;margin-top:10vh'>
+<button class="bt" bindtap="again">重新审核</button>
+</view>
+</view>
+
+
+
+
+

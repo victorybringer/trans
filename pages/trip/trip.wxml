@@ -1,0 +1,27 @@
+
+
+   <view>
+   
+   
+  <map class="map" longitude="{{longitude}}" latitude="{{latitude}}"   markers="{{markers}}" >
+  </map>
+
+
+
+</view>
+
+
+<view style="margin-top:5vh;display:flex;align-items:center">
+<text>{{process}}</text>
+<button  bindtap="upload" style="margin-left:100rpx">上传</button></view>
+<view class="view">
+
+
+
+
+<image src="{{image}}" class="img"></image>
+
+
+</view>
+
+<button class="bt" bindtap="{{fun}}">{{text}}</button>

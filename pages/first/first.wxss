@@ -1,0 +1,67 @@
+.tx{
+
+
+margin-top: 10vh;
+display: flex;
+align-items: center;
+}
+.tx4{
+
+
+margin-top: 10vh;
+display: flex;
+align-items: center;
+padding-bottom: 3vh
+}
+.tx0{
+
+
+margin-top: 3vh;
+display: flex;
+align-items: center;
+}
+.tx3{
+
+justify-content: center;
+margin-top: 10vh;
+display: flex;
+
+
+border-style: solid;
+ border-color: #878787;
+ border-bottom-width:0.2rpx;
+  border-top-width:0.2rpx;
+   border-left-width:0.2rpx;
+    border-right-width:0.2rpx;}
+.user{
+
+margin-left:100rpx;
+
+ border-style: solid;
+ border-color: #878787;
+ border-bottom-width:0.2rpx;
+  border-top-width:0rpx;
+   border-left-width:0rpx;
+    border-right-width:0rpx;
+
+}
+.bt2{
+  
+  margin-left:100rpx;
+
+ 
+}
+
+.tx2{
+  width:200rpx
+}
+
+.bt{
+margin-top: 10vh;
+}
+.img{
+ 
+    width:100%;
+    height:25vh
+
+}

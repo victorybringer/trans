@@ -1,0 +1,13 @@
+   
+   
+     
+  <map  class="map" longitude="{{longitude}}" latitude="{{latitude}}"   markers="{{markers}}"
+  include-points="{{markers}}" polyline="{{polyline}}" bindmarkertap="click">
+  </map>
+
+
+
+
+
+
+

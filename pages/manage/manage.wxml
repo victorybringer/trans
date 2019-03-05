@@ -1,0 +1,110 @@
+ <view class="view1">
+    
+ 
+ 
+
+         <image  src="../icon/code.png" style="width:70rpx;height:5vh;" bindtap="search"></image>
+  <image src="../icon/his.png" style="width:70rpx;height:5vh;margin-left:100rpx" bindtap="history"></image>
+  </view>
+
+<view class="view2">
+    
+ 
+ 
+<text>资格审查</text>
+  
+  </view>
+<view class="line"></view>
+
+<view wx:if="{{load=='true'&&qualified=='1'}}" style="display:flex;justify-content:center;margin-top:15vh"> 
+
+
+
+<image src="../icon/word.png" style="width:100rpx;height:7vh" bindtap="open"></image>
+
+
+
+
+
+</view>
+  
+<view wx:if="{{load=='true'&&qualified=='1'}}" style="display:flex;justify-content:center;margin-top:3vh"> 
+
+
+
+<text>资格证书</text>
+
+
+
+
+
+</view>
+
+
+
+
+<view  wx:if="{{load=='true'&&qualified!='1'}}">
+<view style="margin-top:5vh; font-size:5vw"
+>基本信息</view>
+<view class="baseinfo">
+<view class="item0">
+
+<view class="sub1">姓名</view>
+
+<view class="sub2">{{name}}</view>
+
+
+</view>
+
+
+<view class="item">
+<view class="sub1">身份证号</view>
+
+<view class="sub2">{{id}}</view>
+</view>
+ 
+
+<view class="item3"> 
+ <view class="sub1">车牌号</view>
+
+<view class="sub2">{{carnumber}}</view>
+</view>
+
+</view>
+
+
+
+
+<view class="tx3">
+<text class="sub1">营业执照</text>
+
+<image src="{{image1}}"
+ class="img"></image>
+
+</view>
+<view class="tx3">
+<text class="sub1">汽车拍照</text>
+
+<image src="{{image2}}"
+ class="img"></image>
+
+</view>
+
+
+
+
+<view style="display:flex;justify-content:center;margin-top:5vh">
+<radio-group  bindchange="radioChange">
+  
+    <radio value="1" />通过
+   <radio style="margin-left:150rpx" value="2" />拒绝
+</radio-group>
+
+</view>
+
+<view style="display:flex;justify-content:center;margin-top:5vh">
+<button bindtap="confirm">确认</button>
+
+</view>
+
+</view>

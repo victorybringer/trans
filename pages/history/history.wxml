@@ -1,0 +1,17 @@
+<view class="layer2" wx:for="{{time}}" wx:if="{{time[0]!=null}}">
+
+
+
+<button id="{{index}}" class="bt2"  bindtap="his">   
+
+
+<image class='btimg' src='../icon/record.png'></image>
+    <text class="btview">{{time[index]}}</text>
+    
+    
+    
+    </button>
+
+
+
+</view>

@@ -1,0 +1,80 @@
+
+<view wx:if="{{index!=0&&state=='0'}}">
+<view class="item0">
+
+<text class="sub1">监察人 </text>
+<text class="sub3"></text>
+<text class="sub2">{{checkid}}</text>
+
+
+</view>
+
+
+<view class="item">
+<text class="sub1">监察结果 </text>
+
+<text class="sub2">{{result}}</text>
+</view>
+
+<view class="item">
+
+
+
+
+<text class="sub1">监察时间 </text>
+
+<text class="sub2">{{time}}</text>
+</view>
+
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<view wx:if="{{index==0}}">
+
+
+
+
+<view class="item0">
+<text class="sub1">事件 </text>
+<text class="sub4"></text>
+<text class="sub2">{{result}}</text>
+</view>
+
+
+
+
+<view class="item">开始的消毒照片
+
+<image src="{{image}}"
+ class="img"></image>
+
+
+</view>
+
+
+
+<view class="item">
+
+<text class="sub1">发起时间 </text>
+
+<text class="sub2">{{time}}</text>
+</view>
+
+
+
+
+
+</view>

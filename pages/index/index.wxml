@@ -1,0 +1,10 @@
+
+<button class="bt1"  bindtap="caruser">车主
+
+</button>
+
+<button class="bt2" bindtap="manager">管理人员
+
+</button>
+
+

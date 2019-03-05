@@ -1,0 +1,66 @@
+page {
+  background: rgb(231, 230, 230);
+}
+.layer2{
+margin-top: 10vh;
+margin-left: 10rpx;
+margin-right:  10rpx;
+border-radius: 20rpx;
+ border-style: solid;
+ border-color: #F3F3F3;
+ border-bottom-width:0.02rpx;
+  border-top-width:0.02rpx;
+   border-left-width:0.02rpx;
+    border-right-width:0.02rpx;
+ background-color:white;
+  
+
+}
+
+
+.bt2{
+
+  
+
+height:6vh;
+
+ display: flex;
+}
+.bt2::after{
+  border:none
+}
+
+
+
+.btimg{
+ margin-top: 1.5vh;
+   margin-left: 40rpx;
+  width: 40rpx;
+  height: 3vh;
+}
+.btview{
+ display: flex;
+  align-items: center;
+
+   margin-left:50rpx;
+
+}
+.user{
+
+  display: flex;
+  justify-content: center;
+}
+.avatar{
+
+  height: 50px;
+    width: 50px;
+  border-radius: 25px;
+}
+
+.nickname{
+  margin-top: 2vh;
+
+  display: flex;
+  justify-content: center;
+
+}
